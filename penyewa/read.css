@@ -1,0 +1,79 @@
+.kon{
+    background-color: #333;
+    text-align: center;
+    padding-bottom: 50px;
+    margin:10px;
+}
+td,tr{
+    color: black;
+    text-align: center;
+}
+td a{
+    color: black;
+}
+table{
+    background-color: white;
+}
+.table{
+    background-color: white;
+    margin-left: 3.3%;
+}
+h2{
+    color: white;
+}
+.btn-kem{
+    color:#fff;
+    border-radius: 4px;
+    background-color: #333;
+    width: 20px;
+    height: auto;
+}
+.btn-login{
+    cursor: pointer;
+    text-decoration: none;
+    padding: 10px 10px;
+    color:#fff;
+    border-radius: 4px;
+    border: none;
+    background-color: rgb(221, 56, 56);
+    font-size: 15px;
+    margin-top: 40px;
+}
+.btn-login1{
+    cursor: pointer;
+    text-decoration: none;
+    padding: 10px 10px;
+    color:#fff;
+    border-radius: 4px;
+    border: none;
+    background-color: green;
+    font-size: 15px;
+    margin-top: 40px;
+}
+@media screen and (max-width: 800px) {
+    .kon{
+        background-color: #333;
+        text-align: center;
+        padding-bottom: 50px;
+        margin-left:-4%;  
+        transform: scale(0.9);
+    }   
+}
+@media screen and (max-width: 414px) {
+    .kon{
+        background-color: #333;
+        text-align: center;
+        margin-left:-40%;  
+        margin-top: -40%;
+        transform: scale(0.51);
+    }   
+}
+@media screen and (max-width: 375px) {
+    .kon{
+        background-color: #333;
+        text-align: center;
+        margin-left:-40%; 
+        margin-top: -50%;
+        transform: scale(0.42);
+    }   
+}
